@@ -8,7 +8,7 @@ def decrypt():
     encrypted_message = input('Enter the encrypted message\n>').upper()
     decrypted_message = ''
     for j in range(26):
-        if encrypted_message:
+        if decrypted_message:
             decrypted_message += ', '
         for i in range(len(encrypted_message)):
             encrypted_char = encrypted_message[i]
